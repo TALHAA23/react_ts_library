@@ -10,7 +10,8 @@
     "/dist"
   ],
   "scripts": {
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -23,8 +24,5 @@
   },
   "peerDependencies": {
     "react": "^18.3.1"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@talhaa23"
   }
 }
