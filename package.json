@@ -1,5 +1,4 @@
 {
-  "name": "@templatelibrary3/lib",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -23,5 +22,9 @@
   },
   "peerDependencies": {
     "react": "^18.3.1"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@TALHAA23"
+  },
+  "name": "@TALHAA23/react_ts_library"
 }
