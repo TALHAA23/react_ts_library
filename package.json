@@ -1,5 +1,5 @@
 {
-  "name": "@talhaa23/react_ts_library",
+  "name": "@talhasifat/react_ts_library",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -25,6 +25,6 @@
     "react": "^18.3.1"
   },
   "publishConfig": {
-    "@talhaa23:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
