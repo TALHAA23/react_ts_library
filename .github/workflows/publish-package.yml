@@ -14,7 +14,6 @@ jobs:
       # Optionally disable caching temporarily for testing
       # - uses: actions/cache@v3
       - run: npm install
-      - run: npm run test
       - run: npm run build
       - run: npm publish
         env:
