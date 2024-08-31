@@ -11,13 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-      - uses: actions/cache@v3 # Add caching for dependencies
-        with:
-          path: ~/.npm # Cache node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('package.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
+      # Optionally disable caching temporarily for testing
+      # - uses: actions/cache@v3
       - run: npm install
       - run: npm run test
       - run: npm run build
