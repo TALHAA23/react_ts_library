@@ -25,7 +25,8 @@
   "peerDependencies": {
     "react": "^18.3.1"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@talhaa23"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talhaa23/react_ts_library"
   }
 }
